@@ -1,0 +1,10 @@
+^C:\USERS\EXPERT\DESKTOP\NEWRES2\CMAKEFILES\61338763835EBB19AFFB1A41FF932C3C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/EXPERT/Documents/GitHub/laboladula/CloneCMakeYulia -BC:/Users/EXPERT/Desktop/NewRes2 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/EXPERT/Desktop/NewRes2/Yulia.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,3 @@
+C:/Users/EXPERT/Desktop/NewRes2/CMakeFiles/Yulia.dir
+C:/Users/EXPERT/Desktop/NewRes2/CMakeFiles/ALL_BUILD.dir
+C:/Users/EXPERT/Desktop/NewRes2/CMakeFiles/ZERO_CHECK.dir

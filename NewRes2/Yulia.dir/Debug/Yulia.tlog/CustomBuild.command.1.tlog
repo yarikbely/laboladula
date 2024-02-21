@@ -1,0 +1,10 @@
+^C:\USERS\EXPERT\DOCUMENTS\GITHUB\LABOLADULA\CLONECMAKEYULIA\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/EXPERT/Documents/GitHub/laboladula/CloneCMakeYulia -BC:/Users/EXPERT/Desktop/NewRes2 --check-stamp-file C:/Users/EXPERT/Desktop/NewRes2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
